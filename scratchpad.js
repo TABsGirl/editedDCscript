@@ -13,7 +13,7 @@ for (var l = 0; l < container.length; l++) {
   var divs = eggs.getElementsByTagName('div');
   for (var i = 0; i < divs.length; i++) {
     // See how the pattern goes and update the text for new releases and all the good stuff ^_^
-    if ((divs[i].innerHTML.indexOf('belong') != - 1) || (divs[i].innerHTML.indexOf('beautiful glow') != - 1) || (divs[i].innerHTML.indexOf('metallic-looking') != - 1) || (divs[i].innerHTML.indexOf('reddish shine') != - 1)) {
+    if ((divs[i].innerHTML.indexOf('radiate power') != - 1) || (divs[i].innerHTML.indexOf('beautiful glow') != - 1) || (divs[i].innerHTML.indexOf('metallic-looking') != - 1) || (divs[i].innerHTML.indexOf('reddish shine') != - 1)) {
       var div = divs[i];
       var link = divs[i].innerHTML.href;
       for (var b = 0; b < div.childNodes.length; b++) {
